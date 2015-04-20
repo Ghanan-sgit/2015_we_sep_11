@@ -1,6 +1,6 @@
 @extends('masterpages.master_dashboard')
 
-@section('cssLinks')
+@section('css_links')
 
     <link href="{{asset('public_assets/font-awesome/css/font-awesome.css')}}" rel="stylesheet">
 
@@ -21,7 +21,7 @@
 
 @endsection
 
-@section('content')
+@section('main content')
 
     @if ( Session::has('flash_message') )
 
@@ -151,7 +151,7 @@
 
 @endsection
 
-@section('ValidationJavaScript')
+@section('javascripts')
 
 
 

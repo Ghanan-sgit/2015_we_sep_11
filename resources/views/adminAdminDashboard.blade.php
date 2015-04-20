@@ -3,8 +3,8 @@
 @section('cssLinks')
     @endsection
 
-@section('content')
+@section('main content')
 @endsection
 
-@section('ValidationJavaScript')
+@section('javascripts')
 @endsection

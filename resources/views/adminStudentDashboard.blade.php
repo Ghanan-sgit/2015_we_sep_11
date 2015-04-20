@@ -1,10 +1,10 @@
 @extends('masterpages.master_dashboard')
 
-@section('cssLinks')
+@section('css_links')
 @endsection
 
-@section('content')
+@section('main content')
 @endsection
 
-@section('ValidationJavaScript')
+@section('javascripts')
 @endsection
