@@ -20,8 +20,18 @@ Route::get('landing', function() {
 });
 
 Route::get('dashboard', function() {
-    return view('masterpages.master_dashboard');
+    return view('adminAdminDashboard');
 });
+
+Route::get('home','adminAdminDashboardController@index');
+
+Route::get('addUser','createUserController@index');
+Route::post('addUser', 'createUserController@storeUser');
+
+Route::get('updateUser','createUserController@updateUserindex');
+Route::post('updateUser','createUserController@updateUserindexstore');
+
+Route::post('test','createUserController@searchUserAccountDetailsByID');
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
